@@ -30,8 +30,13 @@ const colorChange = () => {
     // declare a variable to assign the current time as it progressed from the time a client clicked on the page
     // this can be changed to match the desired time interval 
     const currentTime = new Date().getSeconds();
-    // 
+    // if statements to check the currentTime variable that can be changed into a variable with the difference of currentTime and time 
+    // then using seconds to showcase the gradient changed over time faster
     (currentTime >=15 && currentTime <= 30) ? document.body.style.background = gradient.morning :
     (currentTime > 30 && currentTime < 45) ? document.body.style.background = gradient.afternoon :
     document.body.style.background = gradient.night
+    // requestAnimationFrame used to check time changed as well as optimize animation of color change 
+    requestAnimationFrame(colorChange);
 };
+// call the colorChange function using requestAnimationFrame
+requestAnimationFrame(colorChange);

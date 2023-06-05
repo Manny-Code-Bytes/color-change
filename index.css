@@ -1,15 +1,15 @@
 :root {
-    --salmon: #ffa07a;
-    --apricot: #ffb68c;
-    --peach: #ffcfa3;
+    --c1: #ffa07a;
+    --c2: #ffb68c;
+    --c3: #ffcfa3;
 
-    --babyBlue: #89b9de;
-    --powderBlue: #b4d8e7;
-    --paleBlue: #e4f1f6;
+    --c4: #89b9de;
+    --c5: #b4d8e7;
+    --c6: #e4f1f6;
 
-    --purple: #423c6f;
-    --amethyst: #6f5b96;
-    --lilac: #9b8bbf;
+    --c7: #423c6f;
+    --c8: #6f5b96;
+    --c9: #9b8bbf;
 }
 
 * {

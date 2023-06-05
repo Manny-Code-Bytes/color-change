@@ -23,3 +23,9 @@ const gradient = {
 // declare a variable to assign the time at desired intervals at which the client first comes to the page
 // this can be changed to minutes, hours, or any other desired time interval to change the gradients
 let time = new Date().getSeconds();
+// declare a variable to change the gradient and check if a specific gradient is set on the body
+let body =  document.body.style.background;
+// create the color change function 
+const colorChange = () => {
+    
+};

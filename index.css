@@ -1,3 +1,17 @@
+:root {
+    --salmon: #ffa07a;
+    --apricot: #ffb68c;
+    --peach: #ffcfa3;
+
+    --babyBlue: #89b9de;
+    --powderBlue: #b4d8e7;
+    --paleBlue: #e4f1f6;
+
+    --purple: #423c6f;
+    --amethyst: #6f5b96;
+    --lilac: #9b8bbf;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

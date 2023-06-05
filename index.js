@@ -20,3 +20,6 @@ const gradient = {
     afternoon: `linear-gradient(${color4}, ${color5}, ${color6})`,
     night: `linear-gradient(${color7}, ${color8}, ${color9})`
 }
+// declare a variable to assign the time at desired intervals at which the client first comes to the page
+// this can be changed to minutes, hours, or any other desired time interval to change the gradients
+let time = new Date().getSeconds();

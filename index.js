@@ -13,3 +13,10 @@ const color6 = getColor('--c6');
 const color7 = getColor('--c7');
 const color8 = getColor('--c8');
 const color9 = getColor('--c9');
+// create an object called gradients to use to set the gradient on different times
+// add or remove colors and add degrees to change gradient appearance
+const gradient = {
+    morning: `linear-gradient(${color1}, ${color2}, ${color3})`,
+    afternoon: `linear-gradient(${color4}, ${color5}, ${color6})`,
+    night: `linear-gradient(${color7}, ${color8}, ${color9})`
+}

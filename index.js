@@ -27,5 +27,11 @@ let time = new Date().getSeconds();
 let body =  document.body.style.background;
 // create the color change function 
 const colorChange = () => {
-    
+    // declare a variable to assign the current time as it progressed from the time a client clicked on the page
+    // this can be changed to match the desired time interval 
+    const currentTime = new Date().getSeconds();
+    // 
+    (currentTime >=15 && currentTime <= 30) ? document.body.style.background = gradient.morning :
+    (currentTime > 30 && currentTime < 45) ? document.body.style.background = gradient.afternoon :
+    document.body.style.background = gradient.night
 };
